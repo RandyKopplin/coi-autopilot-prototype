@@ -84,11 +84,12 @@ const styles = `
     --ink-2: #4a4a4a;
     --ink-3: #8a8a8a;
     --paper: #ffffff;
-    --cream: #faf8f4;
-    --cream-2: #f3efe6;
-    --line: #e6e1d5;
-    --line-2: #d4cdbd;
-    --accent: #1a1a1a;
+    --cream: #ffffff;
+    --cream-2: #f5f5f5;
+    --line: #e5e5e5;
+    --line-2: #d4d4d4;
+    --accent: #f79546;
+    --accent-hover: #e88536;
     --ok: #2d5f3f;
     --ok-bg: #e8f0ea;
     --warn: #8a5a1a;
@@ -133,8 +134,8 @@ const styles = `
   }
   .coi-app .brand-mark {
     width: 30px; height: 30px;
-    background: var(--ink);
-    color: var(--paper);
+    background: var(--accent);
+    color: var(--ink);
     border-radius: 6px;
     display: flex; align-items: center; justify-content: center;
   }
@@ -168,7 +169,7 @@ const styles = `
     transition: all 0.15s ease;
   }
   .coi-app .persona-btn:hover { background: var(--cream-2); color: var(--ink); }
-  .coi-app .persona-btn.active { background: var(--ink); color: var(--paper); }
+  .coi-app .persona-btn.active { background: var(--accent); color: var(--ink); }
 
   .coi-app .nav { display: flex; flex-direction: column; gap: 2px; }
   .coi-app .nav-label { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); padding: 6px 10px; margin-top: 0.5rem; }
@@ -398,8 +399,8 @@ const styles = `
     transition: all 0.15s ease;
   }
   .coi-app .btn:hover { background: var(--cream-2); border-color: var(--ink-3); }
-  .coi-app .btn-primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-  .coi-app .btn-primary:hover { background: var(--ink-2); border-color: var(--ink-2); }
+  .coi-app .btn-primary { background: var(--accent); color: var(--ink); border-color: var(--accent); }
+  .coi-app .btn-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
 
   .coi-app .table { width: 100%; border-collapse: collapse; }
   .coi-app .table th {
@@ -484,7 +485,7 @@ const styles = `
   }
   .coi-app .intake-logo {
     width: 44px; height: 44px;
-    background: var(--ink); color: var(--paper);
+    background: var(--accent); color: var(--ink);
     border-radius: 8px;
     display: flex; align-items: center; justify-content: center;
     font-family: 'DM Serif Display', serif; font-size: 20px;
