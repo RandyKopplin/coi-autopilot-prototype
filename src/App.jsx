@@ -85,8 +85,8 @@ const styles = `
     --ink-3: #8a8a8a;
     --paper: #ffffff;
     --cream: #ffffff;
-    --cream-2: #f5f5f5;
-    --line: #e5e5e5;
+    --cream-2: #eeeeee;
+    --line: #e0e0e0;
     --line-2: #d4d4d4;
     --accent: #f79546;
     --accent-hover: #e88536;
