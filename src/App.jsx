@@ -83,10 +83,10 @@ const styles = `
     --ink: #1a1a1a;
     --ink-2: #4a4a4a;
     --ink-3: #8a8a8a;
-    --paper: #ffffff;
+    --paper: #f5f5f5;
     --cream: #ffffff;
-    --cream-2: #eeeeee;
-    --line: #e0e0e0;
+    --cream-2: #eaeaea;
+    --line: #dcdcdc;
     --line-2: #d4d4d4;
     --accent: #f79546;
     --accent-hover: #e88536;
